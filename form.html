@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+   <form action="http://localhost:27017/api/tasks/create" method="POST" id="headform">
+       <div class="form">
+       <div class="firstname"><label for="firstname">First-Name</label>
+       <input type="text" id="firstname" name="firstname"></div>
+       <div class="lastname"><label for="lastname">Last-Name</label>
+        <input type="text" id="lastname" name="lastname"></div>
+       <div class="email"><label for="email">Email</label>
+       <input type="email" id="email" name="email"></div>
+       <div class="phoneno"><label for="phoneno">Phone No</label>
+        <input type="text" id="phoneno" name="phoneno"></div>
+       <div class="alternatephoneno"><label for="alternatephoneno">Alternate No</label>
+       <input type="text" id="alternatephoneno" name="alternatephoneno"></div>
+       <div class="college"><label for="college">College</label>
+        <input type="text" id="college" name="college"></div>
+        <div class="degree"><label for="degree">Degree</label>
+            <input type="text" id="degree" name="degree"></div>
+            <div class="branch"><label for="branch">Branch</label>
+                <input type="text" id="branch" name="branch"></div>
+                <div class="passoutyear"><label for="passoutyear">Passout-Year</label>
+                    <input type="text" id="passoutyear" name="passoutyear"></div>
+                    <div class="address"><label for="address">Address</label>
+                        <input type="text" id="address" name="address"></div>
+                        <div class="pincode"><label for="pincode">Pin Code</label>
+                            <input type="text" id="pincode" name="pincode"></div>
+                            <button type="submit" id="#submitbutton">submit</button>
+       </div>
+   </form> 
+   <script src ="form.js" type="text/javascript"></script>
+</body>
+</html>

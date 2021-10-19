@@ -1,0 +1,10 @@
+#headform{ display:flex; justify-content: center;}
+.form{display: flex; justify-content: flex-start; flex-basis: 60%; flex-wrap: wrap;}
+.form div{display: flex; margin-top:15px;}
+.firstname{flex-basis: 50%;}   .lastname{flex-basis: 50%;}  .email{flex-basis: 50%;}  
+  .phoneno{flex-basis: 50%;}    .alternatephoneno{flex-basis: 50%;}    .college{flex-basis: 50%;}  
+.degree{flex-basis: 50%;}  .branch{flex-basis: 50%;}   .passoutyear{flex-basis: 50%;}
+.address{flex-basis: 50%;}     .pincode{flex-basis: 50%;}  
+label{width:150px;}
+button{padding:2px 15px;}
+input{padding: 5px; justify-self: flex-end;}
